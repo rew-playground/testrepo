@@ -1,0 +1,78 @@
+table dim_customers
+	lineageTag: a1e38b7e-fb98-4e2c-b2a0-32f058505592
+	sourceLineageTag: [dbo].[dim_customers]
+
+	column customer_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d9db0417-eb11-4313-b2ae-269ab75d7e37
+		sourceColumn: customer_key
+
+	column Gender
+		dataType: string
+		lineageTag: f1f28077-20cd-482d-9e08-88dfcf0c37d7
+		sourceColumn: Gender
+
+	column Name
+		dataType: string
+		lineageTag: 508bdd87-6d0b-4059-9ffd-79a48f9b277e
+		sourceColumn: Name
+
+	column Address
+		dataType: string
+		lineageTag: b224ba24-0644-4012-9551-7d093c21d795
+		sourceColumn: Address
+
+	column City
+		dataType: string
+		lineageTag: c27e2649-368f-4eb1-bfde-85c0c674b8eb
+		sourceColumn: City
+
+	column State_Code
+		dataType: string
+		lineageTag: f8d9f876-d369-492e-87bb-6057f2b245ab
+		sourceColumn: State_Code
+
+	column State
+		dataType: string
+		lineageTag: 0aca9d77-1eeb-47b8-906c-14cf387c7d22
+		sourceColumn: State
+
+	column Zip_Code
+		dataType: string
+		lineageTag: 9b898ba5-4e2a-4c03-88bd-0bafc0b7ca78
+		sourceColumn: Zip_Code
+
+	column Country_Code
+		dataType: string
+		lineageTag: c73c3611-0aea-4d97-b1a4-984bd3eb9d5e
+		sourceColumn: Country_Code
+
+	column Country
+		dataType: string
+		lineageTag: 9ecde210-9199-434a-8abe-6b3caa7e8875
+		sourceColumn: Country
+
+	column Continent
+		dataType: string
+		lineageTag: ad33159d-3104-4607-ab88-9c28ecb5642d
+		sourceColumn: Continent
+
+	column Birthday
+		dataType: string
+		lineageTag: f39714bc-3878-4e92-be4b-33f35eb7c4a7
+		sourceColumn: Birthday
+
+	column Age
+		dataType: int64
+		lineageTag: da17b0af-f12f-4eaa-b7b1-3fa553df8a46
+		sourceColumn: Age
+
+	partition dim_customers = entity
+		mode: directLake
+		source
+			entityName: dim_customers
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+

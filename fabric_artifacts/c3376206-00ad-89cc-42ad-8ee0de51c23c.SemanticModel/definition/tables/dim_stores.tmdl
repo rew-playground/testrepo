@@ -1,0 +1,58 @@
+table dim_stores
+	lineageTag: 2deff4f0-e71c-4ae1-a163-dd9afb4604d0
+	sourceLineageTag: [dbo].[dim_stores]
+
+	column store_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: cc467d36-cf65-4d17-a079-2f3b5a9426e5
+		sourceColumn: store_key
+
+	column Store_Code
+		dataType: string
+		lineageTag: 3fadcf18-ba39-442b-bb15-c64704d26f8d
+		sourceColumn: Store_Code
+
+	column Country
+		dataType: string
+		lineageTag: dcda377e-a268-43fe-a7be-b5cc7446bc4c
+		sourceColumn: Country
+
+	column State
+		dataType: string
+		lineageTag: c6766884-2862-4a39-9455-861b43e8af3a
+		sourceColumn: State
+
+	column Name
+		dataType: string
+		lineageTag: 74e3f253-8feb-43b8-bd71-a02d6108ed4c
+		sourceColumn: Name
+
+	column Square_Meters
+		dataType: string
+		lineageTag: a5ab1353-ec09-41e6-ab8a-7201453c852b
+		sourceColumn: Square_Meters
+
+	column Open_Date
+		dataType: string
+		lineageTag: dcf507bc-6ce2-4d0d-9756-b25a0bc47aef
+		sourceColumn: Open_Date
+
+	column Close_Date
+		dataType: string
+		lineageTag: f4c8135c-5bc9-4c1f-bd74-af5536dbba01
+		sourceColumn: Close_Date
+
+	column Status
+		dataType: string
+		lineageTag: 92c610d6-5f66-4f7f-8616-e8d239cba748
+		sourceColumn: Status
+
+	partition dim_stores = entity
+		mode: directLake
+		source
+			entityName: dim_stores
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+

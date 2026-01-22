@@ -1,0 +1,68 @@
+table dim_dates
+	lineageTag: 05d10b65-d9d4-472b-8434-a9af183b8e16
+	sourceLineageTag: [dbo].[dim_dates]
+
+	column date_key
+		dataType: dateTime
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 31277db8-7333-484a-8cd3-d5ca07fa7d8b
+		sourceColumn: date_key
+
+	column Year
+		dataType: int64
+		lineageTag: df0d425f-27c2-417d-b61c-d08f043029b4
+		sourceColumn: Year
+
+	column Year_Quarter
+		dataType: string
+		lineageTag: 47df2821-a12e-4b42-9b7d-9230136c13f6
+		sourceColumn: Year_Quarter
+
+	column Year_Quarter_Number
+		dataType: string
+		lineageTag: 85877a64-ce1e-4822-8d38-81415254c37e
+		sourceColumn: Year_Quarter_Number
+
+	column Quarter
+		dataType: string
+		lineageTag: dd281051-62ac-41aa-b948-e411a8b17952
+		sourceColumn: Quarter
+
+	column Year_Month
+		dataType: string
+		lineageTag: a08ca548-1e67-445e-973d-77bbd731a7e9
+		sourceColumn: Year_Month
+
+	column Year_Month_Number
+		dataType: string
+		lineageTag: 307b2472-3247-4acc-8faf-c99fdbcee114
+		sourceColumn: Year_Month_Number
+
+	column Month
+		dataType: string
+		lineageTag: 2a4702c7-dfa1-4960-8c1c-e5356e0afe53
+		sourceColumn: Month
+
+	column Month_number
+		dataType: string
+		lineageTag: 6fd6a189-e1df-402b-88da-918b5434620b
+		sourceColumn: Month_number
+
+	column Weekday
+		dataType: string
+		lineageTag: 4f51d5b0-862a-48b8-9013-6c5485eff826
+		sourceColumn: Weekday
+
+	column Weekday_Number
+		dataType: string
+		lineageTag: c2ce389c-141b-45e6-b1ce-596f3c58fbc4
+		sourceColumn: Weekday_Number
+
+	partition dim_dates = entity
+		mode: directLake
+		source
+			entityName: dim_dates
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+

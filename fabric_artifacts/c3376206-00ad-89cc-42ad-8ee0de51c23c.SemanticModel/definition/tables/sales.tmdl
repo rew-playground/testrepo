@@ -1,0 +1,1167 @@
+table sales
+	lineageTag: 553a7c27-02e7-4d20-87ce-a7d2e3af61bf
+	sourceLineageTag: [dbo].[sales]
+
+	measure 'Total Fake Measure 1' = =SUM(sales[Fake_Measure_1])
+		formatString: #,##0
+		lineageTag: 0f514441-93d5-4be7-bbe4-2142b4b161a6
+
+	measure 'Total Fake Measure 2' = =SUM(sales[Fake_Measure_2])
+		formatString: #,##0
+		lineageTag: 667cf1cf-8a0a-466f-bcd3-2e545c5126a6
+
+	measure 'Total Fake Measure 3' = =SUM(sales[Fake_Measure_3])
+		formatString: #,##0
+		lineageTag: acc79f4f-1fdb-4fbb-a742-d7f07477171d
+
+	measure 'Total Fake Measure 4' = =SUM(sales[Fake_Measure_4])
+		formatString: #,##0
+		lineageTag: 2e434aab-a653-4077-8d98-e7f6c0af9e8d
+
+	measure 'Total Fake Measure 5' = =SUM(sales[Fake_Measure_5])
+		formatString: #,##0
+		lineageTag: 0a38f9b4-90f2-4f71-beeb-eaafc929f919
+
+	measure 'Total Fake Measure 6' = =SUM(sales[Fake_Measure_6])
+		formatString: #,##0
+		lineageTag: b8bf464f-120d-4a2c-8f24-8cd267c235e2
+
+	measure 'Total Fake Measure 7' = =SUM(sales[Fake_Measure_7])
+		formatString: #,##0
+		lineageTag: 066cc939-f43b-4a11-9c59-ccecaa0319e8
+
+	measure 'Total Fake Measure 8' = =SUM(sales[Fake_Measure_8])
+		formatString: #,##0
+		lineageTag: 48ffbc73-7623-4426-aa82-1f9523833e90
+
+	measure 'Total Fake Measure 9' = =SUM(sales[Fake_Measure_9])
+		formatString: #,##0
+		lineageTag: c66c9427-df32-4f43-a5ff-0b678914b1e4
+
+	measure 'Total Fake Measure 10' = =SUM(sales[Fake_Measure_10])
+		formatString: #,##0
+		lineageTag: 07165d2c-a65d-4d50-9d86-4f218a9772b9
+
+	measure 'Total Fake Measure 11' = =SUM(sales[Fake_Measure_11])
+		formatString: #,##0
+		lineageTag: 27cb22c7-dfe2-404c-9eb4-3369851213ab
+
+	measure 'Total Fake Measure 12' = =SUM(sales[Fake_Measure_12])
+		formatString: #,##0
+		lineageTag: 31ff1871-0255-4773-8379-35ecad76b0d8
+
+	measure 'Total Fake Measure 13' = =SUM(sales[Fake_Measure_13])
+		formatString: #,##0
+		lineageTag: 762a9de7-c41d-4738-a626-6722b22ec0da
+
+	measure 'Total Fake Measure 14' = =SUM(sales[Fake_Measure_14])
+		formatString: #,##0
+		lineageTag: edd642df-f89e-412e-a691-7f850ac25509
+
+	measure 'Total Fake Measure 15' = =SUM(sales[Fake_Measure_15])
+		formatString: #,##0
+		lineageTag: 532d0cd4-ad01-4215-8099-a4357fe58feb
+
+	measure 'Total Fake Measure 16' = =SUM(sales[Fake_Measure_16])
+		formatString: #,##0
+		lineageTag: bb6a377e-6406-47d5-98ac-47d312af88a0
+
+	measure 'Total Fake Measure 17' = =SUM(sales[Fake_Measure_17])
+		formatString: #,##0
+		lineageTag: eb480c28-f046-4964-85d7-5116e8b89629
+
+	measure 'Total Fake Measure 18' = =SUM(sales[Fake_Measure_18])
+		formatString: #,##0
+		lineageTag: 10b9243b-9351-4297-aed0-90534a2e535b
+
+	measure 'Total Fake Measure 19' = =SUM(sales[Fake_Measure_19])
+		formatString: #,##0
+		lineageTag: f93a5c9a-1ba6-478a-9c42-579ac8b80bf7
+
+	measure 'Total Fake Measure 20' = =SUM(sales[Fake_Measure_20])
+		formatString: #,##0
+		lineageTag: adea319d-38a2-458f-9a1a-53ebba74033a
+
+	measure 'Total Fake Measure 21' = =SUM(sales[Fake_Measure_21])
+		formatString: #,##0
+		lineageTag: 9b5dcdaf-73e6-4ce1-b14c-6025c42ed730
+
+	measure 'Total Fake Measure 22' = =SUM(sales[Fake_Measure_22])
+		formatString: #,##0
+		lineageTag: f39cb9cd-53a7-4b62-bcf2-e93458d1e441
+
+	measure 'Total Fake Measure 23' = =SUM(sales[Fake_Measure_23])
+		formatString: #,##0
+		lineageTag: e22fa5d6-095e-4fbd-be7f-483258cc41f5
+
+	measure 'Total Fake Measure 24' = =SUM(sales[Fake_Measure_24])
+		formatString: #,##0
+		lineageTag: 0ae9e91a-e2ee-446f-85d1-e4956bd6e545
+
+	measure 'Total Fake Measure 25' = =SUM(sales[Fake_Measure_25])
+		formatString: #,##0
+		lineageTag: 2442c5e1-ded7-42c1-b08c-5673167eb16b
+
+	measure 'Total Fake Measure 26' = =SUM(sales[Fake_Measure_26])
+		formatString: #,##0
+		lineageTag: 5d941fd6-740d-4159-b986-460ff06c5462
+
+	measure 'Total Fake Measure 27' = =SUM(sales[Fake_Measure_27])
+		formatString: #,##0
+		lineageTag: 3ac3e9d7-d9dd-4b4a-b5ed-87d84332bf31
+
+	measure 'Total Fake Measure 28' = =SUM(sales[Fake_Measure_28])
+		formatString: #,##0
+		lineageTag: 6d15fdf2-7ef7-4574-a489-aab419937b12
+
+	measure 'Total Fake Measure 29' = =SUM(sales[Fake_Measure_29])
+		formatString: #,##0
+		lineageTag: 5447d47b-038d-4364-9d3e-212a80c9a764
+
+	measure 'Total Fake Measure 30' = =SUM(sales[Fake_Measure_30])
+		formatString: #,##0
+		lineageTag: 678add00-c69a-4918-b0fc-91182af39fe0
+
+	measure 'Total Fake Measure 31' = =SUM(sales[Fake_Measure_31])
+		formatString: #,##0
+		lineageTag: ef430aae-42b6-4283-a00c-ba404bab3f3c
+
+	measure 'Total Fake Measure 32' = =SUM(sales[Fake_Measure_32])
+		formatString: #,##0
+		lineageTag: 8bec523a-d340-4f51-8692-f628adbda3c4
+
+	measure 'Total Fake Measure 33' = =SUM(sales[Fake_Measure_33])
+		formatString: #,##0
+		lineageTag: 24fa5b88-dc55-461f-bd16-8c2b92138f20
+
+	measure 'Total Fake Measure 34' = =SUM(sales[Fake_Measure_34])
+		formatString: #,##0
+		lineageTag: 774aba81-aced-4cdb-bd33-33a797468591
+
+	measure 'Total Fake Measure 35' = =SUM(sales[Fake_Measure_35])
+		formatString: #,##0
+		lineageTag: d3d83bac-f426-4de0-b6c1-9ed4db9f3d18
+
+	measure 'Total Fake Measure 36' = =SUM(sales[Fake_Measure_36])
+		formatString: #,##0
+		lineageTag: c29a46b7-2e1e-416f-a8db-816d68ef0ba6
+
+	measure 'Total Fake Measure 37' = =SUM(sales[Fake_Measure_37])
+		formatString: #,##0
+		lineageTag: c6694908-e3ef-4582-b64f-7c86bb214388
+
+	measure 'Total Fake Measure 38' = =SUM(sales[Fake_Measure_38])
+		formatString: #,##0
+		lineageTag: 5cdf8156-4fca-46e7-b705-7ab1f210f4e9
+
+	measure 'Total Fake Measure 39' = =SUM(sales[Fake_Measure_39])
+		formatString: #,##0
+		lineageTag: bff7d9af-12c9-47a7-bc6d-026f4207753e
+
+	measure 'Total Fake Measure 40' = =SUM(sales[Fake_Measure_40])
+		formatString: #,##0
+		lineageTag: 4292ac56-d2ca-4795-8909-1c4b3a682115
+
+	measure 'Total Fake Measure 41' = =SUM(sales[Fake_Measure_41])
+		formatString: #,##0
+		lineageTag: 7c200215-92be-4562-9bc0-b659515befad
+
+	measure 'Total Fake Measure 42' = =SUM(sales[Fake_Measure_42])
+		formatString: #,##0
+		lineageTag: db524d81-0154-4a97-bfb8-b0c16aabff74
+
+	measure 'Total Fake Measure 43' = =SUM(sales[Fake_Measure_43])
+		formatString: #,##0
+		lineageTag: 35d23c91-d8dd-4abc-a97d-2b52d4c7db22
+
+	measure 'Total Fake Measure 44' = =SUM(sales[Fake_Measure_44])
+		formatString: #,##0
+		lineageTag: 0bd557be-528a-4ce8-a10c-93c36603ed77
+
+	measure 'Total Fake Measure 45' = =SUM(sales[Fake_Measure_45])
+		formatString: #,##0
+		lineageTag: 006e6f3f-921c-4d88-aa9f-c0af109ec439
+
+	measure 'Total Fake Measure 46' = =SUM(sales[Fake_Measure_46])
+		formatString: #,##0
+		lineageTag: d5ea0686-81f3-414b-8fe4-0c92db734f09
+
+	measure 'Total Fake Measure 47' = =SUM(sales[Fake_Measure_47])
+		formatString: #,##0
+		lineageTag: 23258aef-8bb8-4af4-9dfe-7b6edac92f78
+
+	measure 'Total Fake Measure 48' = =SUM(sales[Fake_Measure_48])
+		formatString: #,##0
+		lineageTag: 56506e1f-2b31-4be6-bbb0-646502ce1788
+
+	measure 'Total Fake Measure 49' = =SUM(sales[Fake_Measure_49])
+		formatString: #,##0
+		lineageTag: 1db8a190-9956-4f37-85a6-6b842a24a59d
+
+	measure 'Total Fake Measure 50' = =SUM(sales[Fake_Measure_50])
+		formatString: #,##0
+		lineageTag: 802ef5ff-ef45-4f65-93a7-c94a9c3d75b6
+
+	measure 'Total Fake Measure 51' = =SUM(sales[Fake_Measure_51])
+		formatString: #,##0
+		lineageTag: ab4269e4-f622-4793-964d-5ca9d7e207a2
+
+	measure 'Total Fake Measure 52' = =SUM(sales[Fake_Measure_52])
+		formatString: #,##0
+		lineageTag: f7d0f74b-4321-4cb5-83d2-3296cda25707
+
+	measure 'Total Fake Measure 53' = =SUM(sales[Fake_Measure_53])
+		formatString: #,##0
+		lineageTag: fb93585c-6465-4326-af66-0d6b8c32028a
+
+	measure 'Total Fake Measure 54' = =SUM(sales[Fake_Measure_54])
+		formatString: #,##0
+		lineageTag: e8ef0e7c-173b-4a3c-9adf-13bd6e5fa1a0
+
+	measure 'Total Fake Measure 55' = =SUM(sales[Fake_Measure_55])
+		formatString: #,##0
+		lineageTag: 6b0d11ab-90ab-4265-943a-7cf19174335c
+
+	measure 'Total Fake Measure 56' = =SUM(sales[Fake_Measure_56])
+		formatString: #,##0
+		lineageTag: d0cd5ea8-4932-4adf-bfdb-87f86bdca224
+
+	measure 'Total Fake Measure 57' = =SUM(sales[Fake_Measure_57])
+		formatString: #,##0
+		lineageTag: 2206242c-bd09-4761-ae91-3daf4b090517
+
+	measure 'Total Fake Measure 58' = =SUM(sales[Fake_Measure_58])
+		formatString: #,##0
+		lineageTag: f06bdd7b-9ea3-48e4-b184-1db898713571
+
+	measure 'Total Fake Measure 59' = =SUM(sales[Fake_Measure_59])
+		formatString: #,##0
+		lineageTag: 78aa790c-3fad-43a5-a09e-52b2b2d78ef3
+
+	measure 'Total Fake Measure 60' = =SUM(sales[Fake_Measure_60])
+		formatString: #,##0
+		lineageTag: 568331b8-c72d-4b8b-83fb-fd7f5ce7708e
+
+	measure 'Total Fake Measure 61' = =SUM(sales[Fake_Measure_61])
+		formatString: #,##0
+		lineageTag: 36bd5570-1edb-4e55-8686-eb50ae2e259e
+
+	measure 'Total Fake Measure 62' = =SUM(sales[Fake_Measure_62])
+		formatString: #,##0
+		lineageTag: 92e4c048-9989-4ae3-bb68-a2101fd090f2
+
+	measure 'Total Fake Measure 63' = =SUM(sales[Fake_Measure_63])
+		formatString: #,##0
+		lineageTag: 9acaaa8c-9d78-464c-a806-f478209f73a1
+
+	measure 'Total Fake Measure 64' = =SUM(sales[Fake_Measure_64])
+		formatString: #,##0
+		lineageTag: 24fc2b87-b91a-427b-84c9-d615f40ab7b3
+
+	measure 'Total Fake Measure 65' = =SUM(sales[Fake_Measure_65])
+		formatString: #,##0
+		lineageTag: 2cd8c899-c7e0-4982-affb-7332ca922d32
+
+	measure 'Total Fake Measure 66' = =SUM(sales[Fake_Measure_66])
+		formatString: #,##0
+		lineageTag: bb1f0404-014c-4648-88c3-511d3b1b7b81
+
+	measure 'Total Fake Measure 67' = =SUM(sales[Fake_Measure_67])
+		formatString: #,##0
+		lineageTag: e221dd06-2454-4ea5-b489-3a4ee8a10091
+
+	measure 'Total Fake Measure 68' = =SUM(sales[Fake_Measure_68])
+		formatString: #,##0
+		lineageTag: 9df34660-1e50-43a1-a5f5-ef5caf6ae07c
+
+	measure 'Total Fake Measure 69' = =SUM(sales[Fake_Measure_69])
+		formatString: #,##0
+		lineageTag: e5285002-3198-4151-b333-a083e91fa05a
+
+	measure 'Total Fake Measure 70' = =SUM(sales[Fake_Measure_70])
+		formatString: #,##0
+		lineageTag: 904e1cb8-cc38-42fc-bfb9-590f38e85eec
+
+	measure 'Total Fake Measure 71' = =SUM(sales[Fake_Measure_71])
+		formatString: #,##0
+		lineageTag: 426afbf5-1910-4bd2-b0ee-162fe0ddc1bd
+
+	measure 'Total Fake Measure 72' = =SUM(sales[Fake_Measure_72])
+		formatString: #,##0
+		lineageTag: 43e390b3-fdad-4ea5-8da7-1146b7e80f83
+
+	measure 'Total Fake Measure 73' = =SUM(sales[Fake_Measure_73])
+		formatString: #,##0
+		lineageTag: b2bf777b-42b9-4344-83ab-0fffd08a5313
+
+	measure 'Total Fake Measure 74' = =SUM(sales[Fake_Measure_74])
+		formatString: #,##0
+		lineageTag: a2e33221-1506-42c6-a3a5-c102d13a0e58
+
+	measure 'Total Fake Measure 75' = =SUM(sales[Fake_Measure_75])
+		formatString: #,##0
+		lineageTag: 2096fa07-8e5b-4eea-97c9-414463baa7bf
+
+	measure 'Total Fake Measure 76' = =SUM(sales[Fake_Measure_76])
+		formatString: #,##0
+		lineageTag: 43e82b72-eb96-4506-b32d-76f2b73db5bf
+
+	measure 'Total Fake Measure 77' = =SUM(sales[Fake_Measure_77])
+		formatString: #,##0
+		lineageTag: f5f29504-88cd-4e5f-8432-96e5c499c500
+
+	measure 'Total Fake Measure 78' = =SUM(sales[Fake_Measure_78])
+		formatString: #,##0
+		lineageTag: 2cc6adfa-3539-4e96-9f32-5453fc579bb6
+
+	measure 'Total Fake Measure 79' = =SUM(sales[Fake_Measure_79])
+		formatString: #,##0
+		lineageTag: 4d7a7860-bda9-42f3-91ed-0e8526e65bf0
+
+	measure 'Total Fake Measure 80' = =SUM(sales[Fake_Measure_80])
+		formatString: #,##0
+		lineageTag: 108716db-a315-4182-af60-6aa57c059d0b
+
+	measure 'Total Fake Measure 81' = =SUM(sales[Fake_Measure_81])
+		formatString: #,##0
+		lineageTag: 2c921585-402d-46fa-974c-11fc2ddf348c
+
+	measure 'Total Fake Measure 82' = =SUM(sales[Fake_Measure_82])
+		formatString: #,##0
+		lineageTag: 1e183938-40de-4001-be0a-faa14666b2bd
+
+	measure 'Total Fake Measure 83' = =SUM(sales[Fake_Measure_83])
+		formatString: #,##0
+		lineageTag: 9f3c71a0-916a-446f-9597-7dee97a15d35
+
+	measure 'Total Fake Measure 84' = =SUM(sales[Fake_Measure_84])
+		formatString: #,##0
+		lineageTag: 72dd9759-71dc-45c5-b74b-e69b248302a3
+
+	measure 'Total Fake Measure 85' = =SUM(sales[Fake_Measure_85])
+		formatString: #,##0
+		lineageTag: 7eae8f3c-7706-459b-abc9-dc163656918f
+
+	measure 'Total Fake Measure 86' = =SUM(sales[Fake_Measure_86])
+		formatString: #,##0
+		lineageTag: b5d69f76-759e-4913-9389-22dd58781f77
+
+	measure 'Total Fake Measure 87' = =SUM(sales[Fake_Measure_87])
+		formatString: #,##0
+		lineageTag: d16e57e9-ff5d-4dab-ae50-be12683980f2
+
+	measure 'Total Fake Measure 88' = =SUM(sales[Fake_Measure_88])
+		formatString: #,##0
+		lineageTag: 7415a419-56fd-42ee-af53-0eade2069f94
+
+	measure 'Total Fake Measure 89' = =SUM(sales[Fake_Measure_89])
+		formatString: #,##0
+		lineageTag: 5100ed0c-eada-4df4-9e94-bab7cdab903c
+
+	measure 'Total Fake Measure 90' = =SUM(sales[Fake_Measure_90])
+		formatString: #,##0
+		lineageTag: 4e550e2e-32b0-42c6-bdd4-e78f6c192ca3
+
+	measure 'Total Fake Measure 91' = =SUM(sales[Fake_Measure_91])
+		formatString: #,##0
+		lineageTag: 89c226a0-db8e-4dbe-961f-1e1cc6946f46
+
+	measure 'Total Fake Measure 92' = =SUM(sales[Fake_Measure_92])
+		formatString: #,##0
+		lineageTag: 1760c1e6-0738-4df6-ad28-529e7aa2cc48
+
+	measure 'Total Fake Measure 93' = =SUM(sales[Fake_Measure_93])
+		formatString: #,##0
+		lineageTag: 3f1812e4-0de7-4cb8-a113-2430ac61327b
+
+	measure 'Total Fake Measure 94' = =SUM(sales[Fake_Measure_94])
+		formatString: #,##0
+		lineageTag: fc7806ca-95bd-494c-910b-daaea1bd138c
+
+	measure 'Total Fake Measure 95' = =SUM(sales[Fake_Measure_95])
+		formatString: #,##0
+		lineageTag: 0a1db474-113f-4b97-b3a7-f3ae745e510a
+
+	measure 'Total Fake Measure 96' = =SUM(sales[Fake_Measure_96])
+		formatString: #,##0
+		lineageTag: 1f750110-6ea9-438c-abce-b78c4ed31cad
+
+	measure 'Total Fake Measure 97' = =SUM(sales[Fake_Measure_97])
+		formatString: #,##0
+		lineageTag: b2378ea6-b89a-4808-81ac-91cea7a51f67
+
+	measure 'Total Fake Measure 98' = =SUM(sales[Fake_Measure_98])
+		formatString: #,##0
+		lineageTag: d1721533-0ab8-46e9-8b9f-73fa9a1b2311
+
+	measure 'Total Fake Measure 99' = =SUM(sales[Fake_Measure_99])
+		formatString: #,##0
+		lineageTag: 627d0afb-2f79-4866-bac9-7e5a871e2fb5
+
+	measure 'Total Fake Measure 100' = =SUM(sales[Fake_Measure_100])
+		formatString: #,##0
+		lineageTag: 6f70c329-4ae5-4625-ac7f-7276a776b1e2
+
+	column customer_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 7cbedea5-e303-48ec-956d-6f8e90be323e
+		sourceColumn: customer_key
+
+	column store_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 4c66f140-1da9-439a-b5de-a4a06bc8f53f
+		sourceColumn: store_key
+
+	column product_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fa2ed63c-0600-46e5-ac1e-33df4910f032
+		sourceColumn: product_key
+
+	column orderdate_key
+		dataType: dateTime
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: be34b62c-71e2-4418-8f56-7db344c60000
+		sourceColumn: orderdate_key
+
+	column deliverydate_key
+		dataType: dateTime
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: c48db80f-a3e8-4b09-8884-e237859c81bd
+		sourceColumn: deliverydate_key
+
+	column Price
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: db60de3d-725e-483c-bcfb-05dafbfee3c3
+		sourceColumn: Price
+
+	column Qunatity
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 39726773-cb6c-45b8-a5aa-678bfe1968a4
+		sourceColumn: Qunatity
+
+	column Cost
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: ae3c40e4-3097-4248-a41d-004da0032544
+		sourceColumn: Cost
+
+	column Fake_Measure_1
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 9803d1c0-2514-4c6f-b4bb-fbc9c28d19de
+		sourceColumn: Fake_Measure_1
+
+	column Fake_Measure_2
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d203483b-c0ef-4c07-8c45-4b788ab54adb
+		sourceColumn: Fake_Measure_2
+
+	column Fake_Measure_3
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 04db8cfe-9a3a-44fc-89e0-9063b368770f
+		sourceColumn: Fake_Measure_3
+
+	column Fake_Measure_4
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d950a38f-d5af-4599-bb0d-430a781fc693
+		sourceColumn: Fake_Measure_4
+
+	column Fake_Measure_5
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d51e36c0-88b1-49ba-8b3f-e8cffeb218b1
+		sourceColumn: Fake_Measure_5
+
+	column Fake_Measure_6
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 59ce72d8-8fef-401a-b485-addeaedade91
+		sourceColumn: Fake_Measure_6
+
+	column Fake_Measure_7
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 6edb6936-d97c-48fb-ad0e-809bc57f1820
+		sourceColumn: Fake_Measure_7
+
+	column Fake_Measure_8
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1a4663ef-4797-41db-9bee-0a6794a0211e
+		sourceColumn: Fake_Measure_8
+
+	column Fake_Measure_9
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 5203576b-2840-4566-8757-a6229052c34c
+		sourceColumn: Fake_Measure_9
+
+	column Fake_Measure_10
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 6392759f-b211-4bd7-ad84-f0d81eb2802f
+		sourceColumn: Fake_Measure_10
+
+	column Fake_Measure_11
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 7b09fba3-001d-4f90-88dc-c1cb3ecd790c
+		sourceColumn: Fake_Measure_11
+
+	column Fake_Measure_12
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 5a253607-c211-4fd9-b4eb-2392526d271f
+		sourceColumn: Fake_Measure_12
+
+	column Fake_Measure_13
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: a7f6a234-b281-412e-8b29-101d6ea78ded
+		sourceColumn: Fake_Measure_13
+
+	column Fake_Measure_14
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 577f972b-8b8e-44d7-a81b-b3be1c558da1
+		sourceColumn: Fake_Measure_14
+
+	column Fake_Measure_15
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1548a854-74bd-42f2-a441-4ecd95086dad
+		sourceColumn: Fake_Measure_15
+
+	column Fake_Measure_16
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: cc88693d-2efc-4d35-a4ec-80ac5e14a14f
+		sourceColumn: Fake_Measure_16
+
+	column Fake_Measure_17
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 2aa2f7dc-a9ea-415d-a4c6-a425ffc0cce5
+		sourceColumn: Fake_Measure_17
+
+	column Fake_Measure_18
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: efa894e8-4f58-4e13-89bc-cc9b42414c70
+		sourceColumn: Fake_Measure_18
+
+	column Fake_Measure_19
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 5ffa54fc-0f8c-40bb-90ae-e223744a66fc
+		sourceColumn: Fake_Measure_19
+
+	column Fake_Measure_20
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 9c220fac-aba4-4fc0-a7d2-7e14b94aa067
+		sourceColumn: Fake_Measure_20
+
+	column Fake_Measure_21
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: ce71073a-9e9f-4a51-a69b-118e0cb11f85
+		sourceColumn: Fake_Measure_21
+
+	column Fake_Measure_22
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 52dc3206-416d-4647-b604-801dbbc9cff1
+		sourceColumn: Fake_Measure_22
+
+	column Fake_Measure_23
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 2a0319a9-3a01-4502-900c-6e840b2a0e84
+		sourceColumn: Fake_Measure_23
+
+	column Fake_Measure_24
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fe17151b-e4a6-4fb0-af81-72380de5bd84
+		sourceColumn: Fake_Measure_24
+
+	column Fake_Measure_25
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 224ddc54-dd23-44d0-b29d-fe448e31be3f
+		sourceColumn: Fake_Measure_25
+
+	column Fake_Measure_26
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 3e566bbb-0d07-4843-b87d-2bd48490df61
+		sourceColumn: Fake_Measure_26
+
+	column Fake_Measure_27
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: f8e5c8d3-660d-4023-96a4-5f9cbd084bee
+		sourceColumn: Fake_Measure_27
+
+	column Fake_Measure_28
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: e70bea20-f3bd-41b9-b431-bd19d32540bc
+		sourceColumn: Fake_Measure_28
+
+	column Fake_Measure_29
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: b493e8f6-f6a4-48da-87d4-cf16e4cf7aee
+		sourceColumn: Fake_Measure_29
+
+	column Fake_Measure_30
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: bd0acdb4-55c7-4347-87fa-64a07ee25380
+		sourceColumn: Fake_Measure_30
+
+	column Fake_Measure_31
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: aa6746d8-738c-46e5-bf34-71524de01ef4
+		sourceColumn: Fake_Measure_31
+
+	column Fake_Measure_32
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 087aed49-1382-48ae-8bbd-e360b0d94864
+		sourceColumn: Fake_Measure_32
+
+	column Fake_Measure_33
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 53d17d0e-22a6-4ee3-93f6-8d2ada0b056e
+		sourceColumn: Fake_Measure_33
+
+	column Fake_Measure_34
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 63160277-38c3-4b3b-95aa-2acc6d6bd5da
+		sourceColumn: Fake_Measure_34
+
+	column Fake_Measure_35
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: b18de5b1-fd65-4f38-bfbc-8c4b46afe9ed
+		sourceColumn: Fake_Measure_35
+
+	column Fake_Measure_36
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 3b842d31-35d0-47df-aee0-42a26f169915
+		sourceColumn: Fake_Measure_36
+
+	column Fake_Measure_37
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: e7d21f87-b906-44e3-a0a6-a33c8eeaf0eb
+		sourceColumn: Fake_Measure_37
+
+	column Fake_Measure_38
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fdbfbe0e-654b-4105-b18e-e7aade0d9150
+		sourceColumn: Fake_Measure_38
+
+	column Fake_Measure_39
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: b1e5dacf-22a9-4647-8164-ccebd48a39b5
+		sourceColumn: Fake_Measure_39
+
+	column Fake_Measure_40
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d432a085-b17e-4464-9b28-055c698849f8
+		sourceColumn: Fake_Measure_40
+
+	column Fake_Measure_41
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 196580e8-e207-4b5a-b2d2-191772a8eb70
+		sourceColumn: Fake_Measure_41
+
+	column Fake_Measure_42
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d2ed8460-85d5-4ec3-a0ec-a02d9afe807f
+		sourceColumn: Fake_Measure_42
+
+	column Fake_Measure_43
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 4e5d7cc0-a082-424d-a9be-f559af64a17d
+		sourceColumn: Fake_Measure_43
+
+	column Fake_Measure_44
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 82a72754-a6bb-44d6-b4fe-8fb7146b2d72
+		sourceColumn: Fake_Measure_44
+
+	column Fake_Measure_45
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: ece298f9-995d-4666-a013-d27d4b725f8d
+		sourceColumn: Fake_Measure_45
+
+	column Fake_Measure_46
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 7ded4d0f-79cb-4883-be22-7943078e199b
+		sourceColumn: Fake_Measure_46
+
+	column Fake_Measure_47
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 852b8e98-2625-4665-a6ee-50c880ab1553
+		sourceColumn: Fake_Measure_47
+
+	column Fake_Measure_48
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: eacf0a36-55b9-49db-9864-7398a221e216
+		sourceColumn: Fake_Measure_48
+
+	column Fake_Measure_49
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 7f99cc8f-a0bf-4fbf-b002-a6815b6eb94e
+		sourceColumn: Fake_Measure_49
+
+	column Fake_Measure_50
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 2adfcd59-88b7-470d-b394-2d856f83fde3
+		sourceColumn: Fake_Measure_50
+
+	column Fake_Measure_51
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 99e3f552-2fd1-45b0-b9d7-2281d0cbc917
+		sourceColumn: Fake_Measure_51
+
+	column Fake_Measure_52
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 304a55d5-da98-489a-ae41-efa95d0773cd
+		sourceColumn: Fake_Measure_52
+
+	column Fake_Measure_53
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 82b241b7-5124-4b7a-a0a0-59f79d10f74a
+		sourceColumn: Fake_Measure_53
+
+	column Fake_Measure_54
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: f48af900-9d52-47a2-9a97-f15bee997528
+		sourceColumn: Fake_Measure_54
+
+	column Fake_Measure_55
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1b249f55-01bf-42a9-b4a8-d417f50a2680
+		sourceColumn: Fake_Measure_55
+
+	column Fake_Measure_56
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 6cbae36d-1f25-4187-b1bb-a5ae7007991d
+		sourceColumn: Fake_Measure_56
+
+	column Fake_Measure_57
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: e9ab67e7-05f3-4332-9b31-9dd6439b6921
+		sourceColumn: Fake_Measure_57
+
+	column Fake_Measure_58
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 79fee929-beb5-44c8-892d-4a14b384addf
+		sourceColumn: Fake_Measure_58
+
+	column Fake_Measure_59
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: bc2c01ef-4f86-4778-b91a-1713f1778917
+		sourceColumn: Fake_Measure_59
+
+	column Fake_Measure_60
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 607b5748-1053-48ab-992a-2c0c6bf4272f
+		sourceColumn: Fake_Measure_60
+
+	column Fake_Measure_61
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: c7208f79-efb3-4f46-b5af-5d0abebba007
+		sourceColumn: Fake_Measure_61
+
+	column Fake_Measure_62
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 25566f04-923b-443b-83a1-1630cb12733c
+		sourceColumn: Fake_Measure_62
+
+	column Fake_Measure_63
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 8c800663-5723-48af-91ab-edbb5fad3850
+		sourceColumn: Fake_Measure_63
+
+	column Fake_Measure_64
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 95094bae-c4de-40cb-a6a2-af1584d8b42c
+		sourceColumn: Fake_Measure_64
+
+	column Fake_Measure_65
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: add9e78d-a498-4850-8355-857e86d1954d
+		sourceColumn: Fake_Measure_65
+
+	column Fake_Measure_66
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 70699021-e0a9-4b61-ac6e-4b1c7a0fcc62
+		sourceColumn: Fake_Measure_66
+
+	column Fake_Measure_67
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1493869b-c0e3-4b24-af80-501d1db3af7c
+		sourceColumn: Fake_Measure_67
+
+	column Fake_Measure_68
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 2b4ba0c1-20e4-4dba-9f8d-3598c2ffd506
+		sourceColumn: Fake_Measure_68
+
+	column Fake_Measure_69
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 6e9d1bd8-eb91-40ec-8d29-df62476cfa27
+		sourceColumn: Fake_Measure_69
+
+	column Fake_Measure_70
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1aa3709b-3012-4783-b4a5-41e5f194d666
+		sourceColumn: Fake_Measure_70
+
+	column Fake_Measure_71
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d40a675c-a4b8-47c7-8820-797d035c72bd
+		sourceColumn: Fake_Measure_71
+
+	column Fake_Measure_72
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: e24eb7c2-2e83-4c73-877c-965b9c27c54e
+		sourceColumn: Fake_Measure_72
+
+	column Fake_Measure_73
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: c323dd59-6b09-4fc5-a3b3-4f714722d807
+		sourceColumn: Fake_Measure_73
+
+	column Fake_Measure_74
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 202e89f1-8d73-4472-ab67-bf5293b30d05
+		sourceColumn: Fake_Measure_74
+
+	column Fake_Measure_75
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 8683c043-9409-4072-8671-6e7773892f84
+		sourceColumn: Fake_Measure_75
+
+	column Fake_Measure_76
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 1b65631c-90e1-4454-9a45-6b353e14f0e7
+		sourceColumn: Fake_Measure_76
+
+	column Fake_Measure_77
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: d4a96a9f-3929-4aa5-b8ea-d2d833665856
+		sourceColumn: Fake_Measure_77
+
+	column Fake_Measure_78
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 6c7285db-c994-4b47-8ec7-b255e263bf6a
+		sourceColumn: Fake_Measure_78
+
+	column Fake_Measure_79
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 460d5754-7ab1-4ddb-b382-401c64e97dab
+		sourceColumn: Fake_Measure_79
+
+	column Fake_Measure_80
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 85d0ca39-b59b-4b5a-8b69-be0797ea9574
+		sourceColumn: Fake_Measure_80
+
+	column Fake_Measure_81
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 2fcb03b7-19e5-4017-bffb-a7c901fcf0ba
+		sourceColumn: Fake_Measure_81
+
+	column Fake_Measure_82
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 89067997-87f8-4f88-8072-c5847e8283d4
+		sourceColumn: Fake_Measure_82
+
+	column Fake_Measure_83
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fb04dba8-e340-456d-8b5e-d39c4b2b782d
+		sourceColumn: Fake_Measure_83
+
+	column Fake_Measure_84
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 41f44260-fbf7-423f-9f0d-f5f27985cb73
+		sourceColumn: Fake_Measure_84
+
+	column Fake_Measure_85
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: a3d1224e-399b-4db6-8669-5df58bb4aab3
+		sourceColumn: Fake_Measure_85
+
+	column Fake_Measure_86
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 281cd201-21fa-41fc-bada-a0e2b3074df5
+		sourceColumn: Fake_Measure_86
+
+	column Fake_Measure_87
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 5d128589-29e3-494b-8603-2f0b67b07a6d
+		sourceColumn: Fake_Measure_87
+
+	column Fake_Measure_88
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 65dc96dd-18fb-4a86-904c-04acd1a4dc59
+		sourceColumn: Fake_Measure_88
+
+	column Fake_Measure_89
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: b330746b-fcc5-4c73-a565-a5fbd85982b7
+		sourceColumn: Fake_Measure_89
+
+	column Fake_Measure_90
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: f51991cc-5b94-4452-816b-e0db25d72760
+		sourceColumn: Fake_Measure_90
+
+	column Fake_Measure_91
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 283cc8e8-3cfe-4d25-95e5-287f22f4ea9e
+		sourceColumn: Fake_Measure_91
+
+	column Fake_Measure_92
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: c7109a40-872f-4d6a-bbdb-a80e50ced7b5
+		sourceColumn: Fake_Measure_92
+
+	column Fake_Measure_93
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fbbdfce3-bcec-4641-b44c-c3bb837ade79
+		sourceColumn: Fake_Measure_93
+
+	column Fake_Measure_94
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: b64e9495-02aa-46c7-8fc3-d3ab3c23f9dd
+		sourceColumn: Fake_Measure_94
+
+	column Fake_Measure_95
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 3e976e59-b63f-4991-a6aa-fe741fba4bfb
+		sourceColumn: Fake_Measure_95
+
+	column Fake_Measure_96
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: e80c5ddc-58a8-43b9-9781-bc05e9aa0923
+		sourceColumn: Fake_Measure_96
+
+	column Fake_Measure_97
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: c3e8d6de-fb87-4ff4-a65e-de46b917faf2
+		sourceColumn: Fake_Measure_97
+
+	column Fake_Measure_98
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 7187c284-e349-4f39-b4c0-64891ff13eee
+		sourceColumn: Fake_Measure_98
+
+	column Fake_Measure_99
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: fafcc766-751c-4c8f-8f11-9e98b674df8b
+		sourceColumn: Fake_Measure_99
+
+	column Fake_Measure_100
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 291703c5-619b-4c07-b625-93576311a82a
+		sourceColumn: Fake_Measure_100
+
+	partition sales = entity
+		mode: directLake
+		source
+			entityName: sales
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+

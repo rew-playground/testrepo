@@ -1,0 +1,83 @@
+table dim_products
+	lineageTag: af2c1f06-cb23-4a34-92e5-82d6a12df5cc
+	sourceLineageTag: [dbo].[dim_products]
+
+	column product_key
+		dataType: int64
+		isHidden
+		isAvailableInMdx: false
+		lineageTag: 11df6d6e-e8d7-4990-976d-216ad15a6b44
+		sourceColumn: product_key
+
+	column Product_Code
+		dataType: string
+		lineageTag: 2bccdc79-0d71-4530-baa0-ee225bcfbfa1
+		sourceColumn: Product_Code
+
+	column Product_Name
+		dataType: string
+		lineageTag: 0cc1fed4-5591-4fdf-bf79-23bbdb461269
+		sourceColumn: Product_Name
+
+	column Manufacturer
+		dataType: string
+		lineageTag: 9b8f5720-4f3d-400d-a339-e75299d5d2a7
+		sourceColumn: Manufacturer
+
+	column Brand
+		dataType: string
+		lineageTag: 1ef59110-1fdf-4d1c-881e-8ef1476ae97a
+		sourceColumn: Brand
+
+	column Color
+		dataType: string
+		lineageTag: fa1cd419-072a-448a-87b1-cfbdc03ab25b
+		sourceColumn: Color
+
+	column Weight_Unit_Measure
+		dataType: string
+		lineageTag: 2c46a286-988d-47d0-afe2-f7cc1b5f6482
+		sourceColumn: Weight_Unit_Measure
+
+	column Weight
+		dataType: string
+		lineageTag: 03a11bfe-52f3-4ad9-8c5c-2698b742f2f6
+		sourceColumn: Weight
+
+	column Unit_Cost
+		dataType: string
+		lineageTag: f7b7406f-f7f8-44b2-a4f8-7c2881f67593
+		sourceColumn: Unit_Cost
+
+	column Unit_Price
+		dataType: string
+		lineageTag: 3c730700-d8bf-4e79-89fd-dee8bf5d968a
+		sourceColumn: Unit_Price
+
+	column Subcategory_Code
+		dataType: string
+		lineageTag: 57f8d823-1ad0-4bf4-b296-cbef7b69350c
+		sourceColumn: Subcategory_Code
+
+	column Subcategory
+		dataType: string
+		lineageTag: bbc061fd-d4e7-4c0f-85bb-0b100d6019dd
+		sourceColumn: Subcategory
+
+	column Category_Code
+		dataType: string
+		lineageTag: fe5c3979-f68e-43b2-8dad-e67a248b484d
+		sourceColumn: Category_Code
+
+	column Category
+		dataType: string
+		lineageTag: 8789abba-902d-401c-b8f1-553c586b01f9
+		sourceColumn: Category
+
+	partition dim_products = entity
+		mode: directLake
+		source
+			entityName: dim_products
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+

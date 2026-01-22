@@ -8,20 +8,28 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "6c22d40b-7c7f-4fe8-8cc9-0b0c1c486826",
-# META       "default_lakehouse_name": "Lakehouse",
-# META       "default_lakehouse_workspace_id": "e352aa73-d7e6-4aed-86d9-e23ebc73ad4c",
+# META       "default_lakehouse": "8bbca298-8c74-4e51-8814-48bf61e8c5fe",
+# META       "default_lakehouse_name": "DemoLakehouse",
+# META       "default_lakehouse_workspace_id": "2e063166-e0f6-4fb8-888f-8ed0f6c1d481",
 # META       "known_lakehouses": [
 # META         {
-# META           "id": "6c22d40b-7c7f-4fe8-8cc9-0b0c1c486826"
+# META           "id": "8bbca298-8c74-4e51-8814-48bf61e8c5fe"
 # META         }
 # META       ]
 # META     },
-# META     "environment": {
-# META       "environmentId": "4d60b17c-d95e-80bb-4a78-b29bf5b14d79",
-# META       "workspaceId": "00000000-0000-0000-0000-000000000000"
-# META     }
+# META     "environment": {}
 # META   }
+# META }
+
+# CELL ********************
+
+!pip install semantic-link-labs
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
 # META }
 
 # MARKDOWN ********************
@@ -51,19 +59,9 @@ from datetime import datetime
 # CELL ********************
 
 semantic_model_name = "demo_semantic_model"
-workspace = fabric.get_workspace_id()
+feature_workspace = "DevOpsDemo_FeatureBranch"
+lakehouse_workspace = "DevOpsDemo_Lakehouse"
 tables = lakehouse.get_lakehouse_tables()['Table Name'].tolist()
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
-lakehouse.get_lakehouse_tables()
 
 # METADATA ********************
 
@@ -81,6 +79,8 @@ lakehouse.get_lakehouse_tables()
 labs.directlake.generate_direct_lake_semantic_model(
      dataset = semantic_model_name 
     ,lakehouse_tables = tables
+    ,workspace = feature_workspace
+    ,lakehouse_workspace = lakehouse_workspace
     ,overwrite = True
 )
 
@@ -117,7 +117,7 @@ display(pdf_relationship_data)
 
 # CELL ********************
 
-with connect_semantic_model(dataset=semantic_model_name, readonly=False) as tom:
+with connect_semantic_model(dataset=semantic_model_name, readonly=False, workspace=feature_workspace) as tom:
     for index, row in pdf_relationship_data.iterrows():
         tom.add_relationship(
              from_table = row['from_table']
@@ -162,7 +162,7 @@ fabric.list_columns(dataset = semantic_model_name)
 # CELL ********************
 
 columns = ["Table Name", "Column Name", "Hidden", "Is Available in MDX"]
-fdf_ColumnInfo = fabric.list_columns(dataset = semantic_model_name, workspace=workspace)[columns]
+fdf_ColumnInfo = fabric.list_columns(dataset = semantic_model_name, workspace=feature_workspace)[columns]
 display(fdf_ColumnInfo)
 
 
@@ -175,7 +175,7 @@ display(fdf_ColumnInfo)
 
 # CELL ********************
 
-fabric.refresh_tom_cache()
+fabric.refresh_tom_cache(workspace=feature_workspace)
 
 # METADATA ********************
 
@@ -188,7 +188,7 @@ fabric.refresh_tom_cache()
 
 fact_tables = ['sales']
 
-with connect_semantic_model(dataset=semantic_model_name, workspace=workspace, readonly=False) as tom:
+with connect_semantic_model(dataset=semantic_model_name, workspace=feature_workspace, readonly=False) as tom:
     for index, row in fdf_ColumnInfo.iterrows():
         if (row['Table Name'] in fact_tables) | ((row['Table Name'] not in fact_tables) & (row['Column Name'].endswith('_key'))):
             tom.update_column(
@@ -207,7 +207,7 @@ with connect_semantic_model(dataset=semantic_model_name, workspace=workspace, re
 
 # CELL ********************
 
-fabric.refresh_tom_cache()
+fabric.refresh_tom_cache(workspace=feature_workspace)
 
 # METADATA ********************
 
@@ -218,7 +218,7 @@ fabric.refresh_tom_cache()
 
 # CELL ********************
 
-fdf_ColumnInfo = fabric.list_columns(dataset = semantic_model_name, workspace=workspace)[columns]
+fdf_ColumnInfo = fabric.list_columns(dataset = semantic_model_name, workspace=feature_workspace)[columns]
 display(fdf_ColumnInfo)
 
 # METADATA ********************
@@ -259,7 +259,7 @@ display(fdfSalesColumnInfo)
 
 # CELL ********************
 
-with connect_semantic_model(dataset=semantic_model_name, workspace=workspace, readonly=False) as tom:
+with connect_semantic_model(dataset=semantic_model_name, workspace=feature_workspace, readonly=False) as tom:
     for index, row in fdfSalesColumnInfo.iterrows():
 
         # Define variables
@@ -286,7 +286,7 @@ with connect_semantic_model(dataset=semantic_model_name, workspace=workspace, re
 
 # CELL ********************
 
-fabric.refresh_tom_cache()
+fabric.refresh_tom_cache(workspace=feature_workspace)
 
 # METADATA ********************
 
@@ -298,7 +298,7 @@ fabric.refresh_tom_cache()
 # CELL ********************
 
 columns = ["Table Name", "Measure Name", "Measure Expression", "Measure Display Folder", "Format String"]
-fabric.list_measures(dataset = semantic_model_name)[columns]
+fabric.list_measures(dataset = semantic_model_name, workspace=feature_workspace)[columns]
 
 # METADATA ********************
 

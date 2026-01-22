@@ -2,10 +2,6 @@ model Model
 	culture: en-US
 	collation: Latin1_General_100_BIN2_UTF8
 	defaultPowerBIDataSourceVersion: powerBI_V3
-	sourceQueryCulture: en-US
-	dataAccessOptions
-		legacyRedirects
-		returnErrorValuesAsNull
 
 annotation PBI_ProTooling = ["SLL", "SLL_GenerateDLModel"]
 
@@ -14,6 +10,4 @@ ref table dim_customers
 ref table dim_products
 ref table dim_stores
 ref table sales
-
-ref cultureInfo en-US
 

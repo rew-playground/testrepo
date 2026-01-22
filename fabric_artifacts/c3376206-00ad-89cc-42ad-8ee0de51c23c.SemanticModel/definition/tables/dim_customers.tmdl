@@ -1,72 +1,72 @@
 table dim_customers
-	lineageTag: b658a26c-3ff6-4395-83c4-31993aa6b4a5
+	lineageTag: a1e38b7e-fb98-4e2c-b2a0-32f058505592
 	sourceLineageTag: [dbo].[dim_customers]
 
 	column customer_key
 		dataType: int64
 		isHidden
 		isAvailableInMdx: false
-		lineageTag: 99389454-2c72-4b5b-a9ef-1a36957da40a
+		lineageTag: d9db0417-eb11-4313-b2ae-269ab75d7e37
 		sourceColumn: customer_key
 
 	column Gender
 		dataType: string
-		lineageTag: a79b9213-7c48-46d1-b2c9-b345fd7bd32e
+		lineageTag: f1f28077-20cd-482d-9e08-88dfcf0c37d7
 		sourceColumn: Gender
 
 	column Name
 		dataType: string
-		lineageTag: 735acb5e-5a99-4a50-b902-2f5586cbcabd
+		lineageTag: 508bdd87-6d0b-4059-9ffd-79a48f9b277e
 		sourceColumn: Name
 
 	column Address
 		dataType: string
-		lineageTag: 5af2da1b-89fa-43b2-8d39-b7a2dff2f69c
+		lineageTag: b224ba24-0644-4012-9551-7d093c21d795
 		sourceColumn: Address
 
 	column City
 		dataType: string
-		lineageTag: 224ffd24-c9ab-43e0-953d-9b47ce782949
+		lineageTag: c27e2649-368f-4eb1-bfde-85c0c674b8eb
 		sourceColumn: City
 
 	column State_Code
 		dataType: string
-		lineageTag: 48b7b56d-2521-4275-8872-45f3eca476de
+		lineageTag: f8d9f876-d369-492e-87bb-6057f2b245ab
 		sourceColumn: State_Code
 
 	column State
 		dataType: string
-		lineageTag: ecdbdca6-b70b-4bd3-8bbe-7646c766af49
+		lineageTag: 0aca9d77-1eeb-47b8-906c-14cf387c7d22
 		sourceColumn: State
 
 	column Zip_Code
 		dataType: string
-		lineageTag: e7397a2b-e965-4ec8-8930-6c33bfd91ab9
+		lineageTag: 9b898ba5-4e2a-4c03-88bd-0bafc0b7ca78
 		sourceColumn: Zip_Code
 
 	column Country_Code
 		dataType: string
-		lineageTag: dce1d561-55c9-4963-bd2d-2412a4e6155d
+		lineageTag: c73c3611-0aea-4d97-b1a4-984bd3eb9d5e
 		sourceColumn: Country_Code
 
 	column Country
 		dataType: string
-		lineageTag: 0aca2719-1949-479a-b263-59155978d256
+		lineageTag: 9ecde210-9199-434a-8abe-6b3caa7e8875
 		sourceColumn: Country
 
 	column Continent
 		dataType: string
-		lineageTag: 4c2dee50-b07d-4a9c-bf76-971cdec9f4f7
+		lineageTag: ad33159d-3104-4607-ab88-9c28ecb5642d
 		sourceColumn: Continent
 
 	column Birthday
 		dataType: string
-		lineageTag: 62f7a4ee-d448-45f8-8fd0-136281611367
+		lineageTag: f39714bc-3878-4e92-be4b-33f35eb7c4a7
 		sourceColumn: Birthday
 
 	column Age
 		dataType: int64
-		lineageTag: 6a445124-bc0c-4621-8f44-393a21c526ad
+		lineageTag: da17b0af-f12f-4eaa-b7b1-3fa553df8a46
 		sourceColumn: Age
 
 	partition dim_customers = entity

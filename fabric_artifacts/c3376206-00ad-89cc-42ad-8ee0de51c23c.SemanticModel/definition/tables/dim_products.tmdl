@@ -1,77 +1,77 @@
 table dim_products
-	lineageTag: fefc3932-3c53-43c3-9aaf-1da3daff8cca
+	lineageTag: af2c1f06-cb23-4a34-92e5-82d6a12df5cc
 	sourceLineageTag: [dbo].[dim_products]
 
 	column product_key
 		dataType: int64
 		isHidden
 		isAvailableInMdx: false
-		lineageTag: 1d6f9ced-ed40-4046-af1e-f699f43b377e
+		lineageTag: 11df6d6e-e8d7-4990-976d-216ad15a6b44
 		sourceColumn: product_key
 
 	column Product_Code
 		dataType: string
-		lineageTag: b83aa628-927b-4fe7-8ec2-9658eba7c31c
+		lineageTag: 2bccdc79-0d71-4530-baa0-ee225bcfbfa1
 		sourceColumn: Product_Code
 
 	column Product_Name
 		dataType: string
-		lineageTag: 9fbc50c4-6795-4adc-918e-0806895abe82
+		lineageTag: 0cc1fed4-5591-4fdf-bf79-23bbdb461269
 		sourceColumn: Product_Name
 
 	column Manufacturer
 		dataType: string
-		lineageTag: ac58b658-88bf-4bc6-8abf-0051666fdb81
+		lineageTag: 9b8f5720-4f3d-400d-a339-e75299d5d2a7
 		sourceColumn: Manufacturer
 
 	column Brand
 		dataType: string
-		lineageTag: 233399b9-d5b7-4bd3-9712-ca6878bf47a6
+		lineageTag: 1ef59110-1fdf-4d1c-881e-8ef1476ae97a
 		sourceColumn: Brand
 
 	column Color
 		dataType: string
-		lineageTag: da159525-a4a4-4c59-bcfa-431f82efc4b9
+		lineageTag: fa1cd419-072a-448a-87b1-cfbdc03ab25b
 		sourceColumn: Color
 
 	column Weight_Unit_Measure
 		dataType: string
-		lineageTag: d5ca316e-4356-4be7-b694-3b39a28960b9
+		lineageTag: 2c46a286-988d-47d0-afe2-f7cc1b5f6482
 		sourceColumn: Weight_Unit_Measure
 
 	column Weight
 		dataType: string
-		lineageTag: 4aa62b0c-db87-4145-9455-45b94cc3a5c4
+		lineageTag: 03a11bfe-52f3-4ad9-8c5c-2698b742f2f6
 		sourceColumn: Weight
 
 	column Unit_Cost
 		dataType: string
-		lineageTag: e581e9b5-f090-4544-b24f-dd382de0edfb
+		lineageTag: f7b7406f-f7f8-44b2-a4f8-7c2881f67593
 		sourceColumn: Unit_Cost
 
 	column Unit_Price
 		dataType: string
-		lineageTag: 7d60702a-7f31-4203-9135-e08ce5a6b5ef
+		lineageTag: 3c730700-d8bf-4e79-89fd-dee8bf5d968a
 		sourceColumn: Unit_Price
 
 	column Subcategory_Code
 		dataType: string
-		lineageTag: 6dec2c05-43f0-4614-a566-48e59d6df9a0
+		lineageTag: 57f8d823-1ad0-4bf4-b296-cbef7b69350c
 		sourceColumn: Subcategory_Code
 
 	column Subcategory
 		dataType: string
-		lineageTag: 129b3aab-749a-40e6-9534-00d1c5c810a5
+		lineageTag: bbc061fd-d4e7-4c0f-85bb-0b100d6019dd
 		sourceColumn: Subcategory
 
 	column Category_Code
 		dataType: string
-		lineageTag: d4d78948-ccbe-49b4-b29b-84afea448c9f
+		lineageTag: fe5c3979-f68e-43b2-8dad-e67a248b484d
 		sourceColumn: Category_Code
 
 	column Category
 		dataType: string
-		lineageTag: d62b0c66-43a6-46d9-8e19-d3119eb0386a
+		lineageTag: 8789abba-902d-401c-b8f1-553c586b01f9
 		sourceColumn: Category
 
 	partition dim_products = entity
